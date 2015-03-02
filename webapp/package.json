@@ -1,0 +1,22 @@
+{
+  "name": 		"getting-started",
+  "author": 	"elsen",
+  "version": 	"0.0.1",
+  "private": 	true,
+  "scripts": {
+    "start": 		"node server.js"
+  },
+  "main": 		"server.js",
+  "dependencies": {
+    "express":				"~3.0.6",
+    "ejs": 					"*",
+    "consolidate": 			"*",
+    "cors": 				"*",
+    "forever": 				"*"
+  },
+  "engines": {
+    "node": 		"*",
+    "npm": 			"*"
+  },
+  "description": 	"getting started"
+}

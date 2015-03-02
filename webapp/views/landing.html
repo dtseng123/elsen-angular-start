@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html ng-app="elsen">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, user-scalable=0, initial-scale=1">
+		<title>Elsen</title>
+		
+		<script src="/env.js"></script>
+		
+		
+		<!-- stylesheets -->
+		<link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+		
+		<!-- javascript -->
+		<script src="https://code.jquery.com/jquery-latest.min.js"></script>
+		<script src="https://code.jquery.com/ui/1.10.3/jquery-ui.min.js"></script>
+	
+		<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+		<script src="/api-template/js/theme.js"></script>
+		<script src="https://yandex.st/highlightjs/8.0/highlight.min.js"></script>
+		
+		<script src="https://code.angularjs.org/1.2.0-rc.2/angular.min.js"></script>
+		<script src="https://code.angularjs.org/1.0.3/angular-resource.min.js"></script>
+		<script src="https://code.angularjs.org/1.2.0-rc.2/angular-sanitize.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.13/angular-ui-router.min.js"></script>
+		
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/0.12.0/ui-bootstrap.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.9.0/moment.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/angular-moment/0.9.0/angular-moment.min.js"></script>
+		
+		<script src="/js/angular/app.js"></script>
+		<script src="/js/angular/controllers.js"></script>
+		<script src="/js/angular/services.js"></script>
+		<script src="/js/angular/filters.js"></script>
+		<script src="/js/angular/directives.js"></script>
+
+		<!-- supplementary scripts -->
+		<script src="http://code.highcharts.com/stock/highstock.src.js"></script>
+		<script src="https://rawgit.com/pablojim/highcharts-ng/master/src/highcharts-ng.js"></script>
+		
+		<!--
+			// we use moment for handling the time-ago fields
+			//	by tying it with angular-moment the values will auto increment
+			//	an alternative to jquery.timeago -- moment has no dependencies
+			https://github.com/urish/angular-moment
+			http://momentjs.com/docs/
+		-->
+		<script src="http://momentjs.com/downloads/moment.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/angular-moment/0.9.0/angular-moment.min.js"></script>
+		<!-- <script src="libraries/angular-timer/dist/angular-timer.js"></script> -->
+		<!-- <script src="js/jquery.timeago.js"></script> -->
+		<link href='http://fonts.googleapis.com/css?family=Roboto:400,300,500,700,300italic' rel='stylesheet' type='text/css'>
+		
+	</head>
+	
+	<!--
+		'elsen' is the name of this angular module (js/app.js)
+	-->
+	<body ng-controller="helloCtrl">
+		Hello world - {{ display }}
+	</body>
+</html>
